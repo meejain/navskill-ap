@@ -28,7 +28,7 @@ header nav[aria-expanded='true'] {
     'tools tools' var(--nav-height) / auto 1fr;
   overflow-y: auto;
   min-height: 100dvh;
-  background-color: rgba(0, 0, 0, 0.95);
+  background-color: transparent;
 }
 
 @media (width >= 900px) {
