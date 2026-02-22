@@ -1,0 +1,31 @@
+{
+  "templates": [
+    {
+      "name": "ap-homepage",
+      "urls": ["https://www.audemarspiguet.com/"],
+      "description": "Audemars Piguet luxury watch brand homepage with hero slides, product carousels, editorial columns, and services",
+      "blocks": [
+        {
+          "name": "hero-luxury",
+          "instances": [".hero > .ap-primary-hero-app .ap-primaryhero"]
+        },
+        {
+          "name": "carousel-product",
+          "instances": [".carousel > .ap-carousel-container-app .ap-carousel--layout-1"]
+        },
+        {
+          "name": "columns-media",
+          "instances": [".lookbook .ap-lookbook-basic"]
+        },
+        {
+          "name": "columns-editorial",
+          "instances": [".dualtextimage > .ap-dual-text-image-app .ap-dualtextimage"]
+        },
+        {
+          "name": "columns-feature",
+          "instances": [".textimage > .ap-text-image-app .ap-textimage.layout-left"]
+        }
+      ]
+    }
+  ]
+}

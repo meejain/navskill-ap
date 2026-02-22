@@ -1,0 +1,40 @@
+{
+  "variantName": "carousel-product",
+  "baseBlock": "carousel",
+  "version": "1.0.0",
+  "created": "2026-02-21T22:01:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.audemarspiguet.com/",
+    "originPage": "luxury watch brand homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "compact",
+    "purpose": "product-showcase",
+    "imagePattern": "large",
+    "structure": "heading + CTA + slides (image + title + description + CTA)"
+  },
+  "contentPattern": {
+    "structure": "heading + CTA + slides (image + title + description + CTA)",
+    "buttonCount": 1,
+    "imageCount": 11
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "product showcase carousels",
+      "service card carousels",
+      "dark-themed sliding content galleries"
+    ],
+    "notSuitableFor": [
+      "simple image galleries without text",
+      "light-themed carousels",
+      "single-slide hero banners"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-02-21T22:01:00.000Z"
+  }
+}
