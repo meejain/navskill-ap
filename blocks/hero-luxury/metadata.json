@@ -1,0 +1,40 @@
+{
+  "variantName": "hero-luxury",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-02-21T22:01:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.audemarspiguet.com/",
+    "originPage": "luxury watch brand homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "luxury-hero",
+    "imagePattern": "large",
+    "structure": "heading + italic subtitle + CTA"
+  },
+  "contentPattern": {
+    "structure": "heading + italic subtitle + CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "luxury brand homepages",
+      "product showcase landing pages",
+      "dark-themed hero sections with full-width background images"
+    ],
+    "notSuitableFor": [
+      "light-themed pages",
+      "text-heavy hero sections without images",
+      "multi-CTA hero banners"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-02-21T22:01:00.000Z"
+  }
+}

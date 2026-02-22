@@ -1,0 +1,40 @@
+{
+  "variantName": "columns-feature",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-02-21T22:01:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.audemarspiguet.com/",
+    "originPage": "luxury watch brand homepage",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "feature-highlight",
+    "imagePattern": "large",
+    "structure": "image column + text column with heading + description + CTA"
+  },
+  "contentPattern": {
+    "structure": "image column + text column with heading + description + CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "image-left text-right feature sections",
+      "boutique/store finder sections",
+      "dark-themed feature highlight with CTA"
+    ],
+    "notSuitableFor": [
+      "multi-column equal layouts",
+      "image-only sections",
+      "text-only column content"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-02-21T22:01:00.000Z"
+  }
+}

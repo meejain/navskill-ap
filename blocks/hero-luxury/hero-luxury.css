@@ -1,0 +1,56 @@
+.hero-luxury-container .hero-luxury-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.hero-luxury-container {
+  margin: 0;
+}
+
+.hero-luxury {
+  position: relative;
+  padding: 40px 24px;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.hero-luxury h1,
+.hero-luxury h2,
+.hero-luxury h3,
+.hero-luxury h4,
+.hero-luxury h5,
+.hero-luxury h6,
+.hero-luxury p {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--background-color);
+}
+
+.hero-luxury.no-image * {
+  color: var(--text-color);
+}
+
+.hero-luxury picture {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.hero-luxury img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@media (width >= 900px) {
+  .hero-luxury {
+    padding: 40px 32px;
+  }
+}
